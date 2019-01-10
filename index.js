@@ -33,8 +33,10 @@ if (URL2=='https://www.ins'){
 
   }
 
-      bot.sendMessage(chatId, 'Downloaded by: @savbestbot');
-      bot.sendVideo(chatId, videoTag);
+
+      bot.sendVideo(chatId, videoTag, {
+        caption: 'Downloaded by: @savbestbot'
+      });
   // console.log(videoTag); // console output:
 
   })};
