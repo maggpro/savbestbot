@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const cheerio = require('cheerio'); // npm install cheerio
 const request = require('request'); // npm install request
-const token = '699117607:AAHB_NrU7ZcbrkOThEX8Fz9WFBkcjwcgehw';
+const token = '9WFBkcjwcgehw';
 const bot = new TelegramBot(token, {polling: true});
 
 var URL  // Video URL
